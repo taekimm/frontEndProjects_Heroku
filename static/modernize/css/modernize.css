@@ -1,0 +1,145 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "Arial", Arial, sans-serif;
+	color:white;
+}
+#container{
+	width:970px;
+	background-color: #191919;
+	padding:0px 10px 0px;
+}
+#header{
+	margin: 0px auto 0px;
+	padding:15px 0px 30px;
+}
+#header img{
+	display:inline-block;
+}
+#header p{
+	display:inline-block;
+	vertical-align: top;
+	font-weight:bold;
+	margin: 0px 0px 0px 575px;
+}
+#navbar{
+	background: linear-gradient(#515151,#1c1c1c);
+}
+#navbar a{
+	text-decoration:none;
+	color:#a3a3a0;
+	font-weight:bold;
+}
+#navbar p{
+	display:inline-block;
+	margin:10px 15px;
+	color:#a3a3a0;
+}
+#navbar p span{
+	margin-left: 130px;
+	color: #a3a3a0;
+}
+#maincontent img{
+	width:100%
+}
+#maincontenttext{
+	border-top:5px solid #3b3b3b;
+	margin:15px auto;
+}
+#maincontenttext img{
+	width:50px;
+	display: inline-block;
+	vertical-align: top;
+}
+#box{
+	width:190px;
+	display:inline-block;
+	margin: 25px 20px 20px;
+}
+#text{
+	display:inline-block;
+	width: 130px;
+	vertical-align: top;
+}
+#text h1{
+	color:#e57528;
+	font-size:12pt;
+	display:inline-block;
+}
+#text p{
+	font-size:8pt;
+	display:inline-block;
+}
+#adbox{
+	padding: 50px 0px;
+	background: repeating-linear-gradient(
+		-45deg,
+		#050505,
+		#050505 2px,
+		#1a1a1a 2px,
+		#1a1a1a 4px);
+}
+#adtext{
+	width:500px;
+	display:inline-block;
+	margin: 0px 20px 0px;
+}
+#adtext h1{
+	font-size: 15pt;
+}
+#adtext p{
+	font-size: 10pt;
+}
+#buynow{
+	width:100px;
+	background-color:#ef8331;
+	display:inline-block;
+	vertical-align: bottom;
+	text-align: center;
+	border-radius:5px;
+	margin: 0px 0px 15px 275px;
+	padding: 10px 0px;
+}
+#buynow a{
+	text-decoration: none;
+}
+#portfolio{
+	background-color: #1a1a1a;
+	padding: 0px 15px 0px;
+}
+#portfolio h1{
+	display:inline-block;
+	font-size: 12pt;
+	margin: 20px 0px;
+}
+#viewallprojects{
+	text-decoration: none;
+	color:#e57528;
+	margin-left: 750px;
+	font-style: italic;
+	font-size:10pt;
+}
+#portfolioitems{
+	display:inline-block;
+	width:200px;
+	margin:10px 15px;
+	vertical-align: top;
+}
+#portfolioitems img{
+	width:190px;
+	border: 5px solid #363636;
+}
+#portfolioitems h1{
+	font-size:12pt;
+	color:#e57528;
+	margin:10px 0px;
+}
+#portfolioitems p{
+	font-size:8pt;
+}
+#backtotop{
+	text-decoration: none;
+	color:#706e69;
+	font-size:8pt;
+	margin-left: 880px;
+}	

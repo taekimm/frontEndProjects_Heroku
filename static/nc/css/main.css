@@ -1,0 +1,314 @@
+/* general, all views all pages css */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", Arial, Sans-serif;
+}
+
+#mobile-messages {
+	margin: 1rem 0 1rem;
+	font-size: 3rem;
+}
+
+/* container */
+body {
+	background-color: #EAE7DC
+}
+/* index css */
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+/* navbar */
+.navbar-default {
+	margin-bottom: 0px;
+}
+
+#brand-icon {
+	height: 3rem;
+	width: auto;
+}
+/* end navbar */
+
+/* intro */
+.intro-tagline p {
+	margin: 0px;
+}
+
+.intro-picture h1 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.intro-picture h2 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.intro-picture-tagline {
+	height: auto;
+}	
+
+.intro-sidebar {
+	padding: 0;
+}
+
+.intro-sidebar-twitter {
+	height: 50rem;
+}
+
+.intro-tagline {
+	width: 100%;
+	background: url(../img/american-flag-background.jpg) no-repeat center center;
+	padding: 2rem 0;
+}
+
+.intro-tagline p {
+	font-size: 4rem;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin: 0px;
+}
+
+.emphasis {
+	font-weight: bold;
+	font-style: italic;
+}
+/* end intro */
+
+/* content */
+.content-block {
+	height: 30rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hovered {
+	background: #fff !important;
+	box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+}
+
+.content-tagline {
+	color: black;
+	margin-bottom: 20px;
+}
+
+.content-tagline-emphasis {
+	font-weight: bold;
+}
+
+.content-block p {
+	font-size: 2rem;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content-block-emphasis {
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+}
+/* end content */
+
+/* footer */
+.footer {
+	height: 5rem;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: #e7e7e7;
+	border-radius: 4px;
+}
+/* end footer */
+
+/* about */
+
+.about-img {
+	background: url(../img/nc-about.jpg) no-repeat center top;
+	height: 30rem
+}
+
+.sidebar {
+	text-align: center;
+}
+
+/* news */
+.news-img {
+	background: url(../img/nc-news.jpg) no-repeat center top;
+	height: 30rem;
+}
+/* faq */
+.faq-img {
+	background: url(../img/nc-faq.jpg) no-repeat center top;
+	height: 30rem;
+}
+
+/* contact */
+.contact-img {
+	background: url(../img/nc-contact.jpg) no-repeat center top;
+	height: 30rem;
+}
+
+
+.contact-form-block {
+	margin: 2rem 0;
+}
+
+.contact-content hr {
+	margin: 0px 0px 1rem;
+}
+
+#map {
+	width: 30rem;
+	height: 30rem;
+}
+
+.office-location {
+	border-top: 1px solid black;
+	padding: 2rem 0;
+}
+/* end contact */
+
+/* screen size css */
+/* mobile view */
+@media( min-device-width: 320px ) and ( max-device-width: 760px ) {
+	/* index */
+	/* intro */
+	/* picture for landscape */
+	@media(orientation: landscape) {
+		.intro-picture {
+			width: 100%;
+			height: 300px;
+			text-align: center;
+			background: url(../img/nc-banner.jpg) no-repeat center center;
+		}
+	}
+
+	/* picture for portrait */
+	@media(orientation: portrait) {
+		.intro-picture {
+			width: 100%;
+			height: 256px;
+			text-align: center;
+			background: url(../img/nc-main-mobile-portrait.jpg) no-repeat center center;
+		}
+	}
+
+	.intro-tagline {
+		font-size: 4rem;
+		color: white;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		width: 100%;
+		background: url(../img/american-flag-background-mobile.png) no-repeat center center;
+	}
+	/* end intro */
+
+	/* content */
+	.trickle-down {
+		background: url(../img/trickle-down-mobile.png) no-repeat center top;
+	}
+
+	.citizens-united {
+		background: url(../img/citizens-united-mobile.png) no-repeat center top;
+	}
+
+	.american-imperialism {
+		background: url(../img/american-imperialism-mobile.png) no-repeat center top;
+	}
+	/* end content */
+	/* end index */
+
+	/* contact */
+	.contact-form-block {
+		padding: 0px 4rem;
+	}
+	/* end contact */
+}
+/* end mobile view */
+
+/* tablet view */
+@media( min-device-width: 768px ) and (max-device-width: 1024px) {
+	/* general */
+	.intro {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	/* index */
+	/* intro */
+	.intro-picture {
+		height: 50rem;
+		background: url(../img/nc-main.jpg) no-repeat center center ;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	/* end intro */
+
+	/* content */
+	.content {
+		background: white;
+	}
+
+	.trickle-down {
+		background: url(../img/trickle-down-mobile.png) no-repeat center top;
+	}
+
+	.citizens-united {
+		background: url(../img/citizens-united-mobile.png) no-repeat center top;
+	}
+
+	.american-imperialism {
+		background: url(../img/american-imperialism-mobile.png) no-repeat center top;
+	}
+	/* end content */
+	/* end index */
+}
+/* end tablet view */
+
+/* desktop view */
+@media( min-device-width: 1025px ) {
+	/* general */
+	.intro {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	/* container */
+	#wrapper {
+		margin: 0 10em;
+		padding: 0;
+		background-color: white;
+	}
+	/* end container */
+
+	/* intro */
+	.intro-picture {
+		height: 50rem;
+		background: url(../img/nc-main.jpg) no-repeat center center ;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	/* end intro */
+
+	/* content */
+	.trickle-down {
+		background: url(../img/trickle-down-mobile.png) no-repeat center top;
+	}
+
+	.citizens-united {
+		background: url(../img/citizens-united-mobile.png) no-repeat center top;
+	}
+
+	.american-imperialism {
+		background: url(../img/american-imperialism-mobile.png) no-repeat center top;
+	}
+	/* end content */
+
+/* end desktop view */
+/* end index */
+}
+
+
